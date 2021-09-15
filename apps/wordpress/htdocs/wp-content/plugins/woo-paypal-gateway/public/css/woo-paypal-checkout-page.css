@@ -1,0 +1,21 @@
+.wpg_paypal_checkout_div {
+    max-width: 300px;
+}
+
+.wpg_paypal_checkout .express-provided.hidden {
+    display: none !important;
+}
+.wpg_paypal_checkout_hidden #ship-to-different-address {
+    display: none !important;
+}
+
+.wpg_paypal_checkout_hidden .woocommerce-additional-fields {
+     display: none !important;
+}
+
+.wpg_paypal_checkout_hidden .shipping_address {
+    display: block !important;
+}
+.woocommerce-privacy-policy-text p {
+    margin-bottom: 1.625em;
+}

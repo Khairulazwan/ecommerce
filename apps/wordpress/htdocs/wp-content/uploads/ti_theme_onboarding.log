@@ -1,0 +1,28 @@
+[18/Jan/2021:07:39:49] (I): WordPress Instance Info:
+[18/Jan/2021:07:39:49] (I): Home URL : http://127.0.0.1:81/wordpress
+[18/Jan/2021:07:39:49] (I): Site URL : http://127.0.0.1:81/wordpress
+[18/Jan/2021:07:39:49] (I): WordPress Version : 5.6
+[18/Jan/2021:07:39:49] (I): Onboarding Version : 1.1.2
+[18/Jan/2021:07:39:49] (I): Multisite : No
+[18/Jan/2021:07:39:49] (I): Server Info : Apache
+[18/Jan/2021:07:39:49] (I): PHP Version : 7.4.13
+[18/Jan/2021:07:39:49] (I): HTTPS : No
+[18/Jan/2021:07:39:49] (I): PHP Max Execution Time : 120
+[18/Jan/2021:07:39:49] (I): PHP Max Input Vars : 1000
+[18/Jan/2021:07:39:49] (I): Max Upload Size : 41943040
+[18/Jan/2021:07:39:49] (I): Plugins:
+[18/Jan/2021:07:39:49] (I): [PLUGIN] Acowebs Woocommerce Dynamic Pricing : v3.6.8 (Acowebs)
+[18/Jan/2021:07:39:49] (I): [PLUGIN] Starter Templates : v2.4.0 (Brainstorm Force)
+[18/Jan/2021:07:39:49] (I): [PLUGIN] Facebook for WooCommerce : v2.2.0 (Facebook)
+[18/Jan/2021:07:39:49] (I): [PLUGIN] Google Ads &amp; Marketing by Kliken : v1.0.6 (Kliken)
+[18/Jan/2021:07:39:49] (I): [PLUGIN] Mailchimp for WooCommerce : v2.5.0 (Mailchimp)
+[18/Jan/2021:07:39:49] (I): [PLUGIN] MooWoodle : v2.5 (DualCube)
+[18/Jan/2021:07:39:49] (I): [PLUGIN] Simple Ajax Chat : v20201124 (Jeff Starr)
+[18/Jan/2021:07:39:49] (I): [PLUGIN] Templates Patterns Collection : v1.1.2 (ThemeIsle)
+[18/Jan/2021:07:39:49] (I): [PLUGIN] Orbit Fox Companion : v2.10.3 (Themeisle)
+[18/Jan/2021:07:39:49] (I): [PLUGIN] User Registration : v1.9.3 (WPEverest)
+[18/Jan/2021:07:39:49] (I): [PLUGIN] WooCommerce PayPal Gateway : v4.0.3 (easypayment)
+[18/Jan/2021:07:39:49] (I): [PLUGIN] WooCommerce Subscriptions Extras : v1.0.23 (Moises Heberle)
+[18/Jan/2021:07:39:49] (I): [PLUGIN] WooCommerce Stripe Gateway : v4.7.0 (WooCommerce)
+[18/Jan/2021:07:39:49] (I): [PLUGIN] WooCommerce Shortcodes : v1.0.0 (WooThemes, Claudio Sanches)
+[18/Jan/2021:07:39:49] (I): [PLUGIN] WooCommerce : v4.9.0 (Automattic)

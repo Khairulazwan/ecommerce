@@ -1,0 +1,35 @@
+2021-08-12T08:01:59+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 829e93d487e8a1ba450c82c17139566c
+2021-08-12T08:02:39+00:00 NOTICE abandoned_cart.success :: email: adam@localhost.com :: checkout_url: http://127.0.0.1:81/wordpress/checkout/?mc_cart_id=829e93d487e8a1ba450c82c17139566c
+2021-08-12T08:02:41+00:00 NOTICE cart.member.updated :: Updated adam@localhost.com subscriber status to subscribed and language to en
+2021-08-12T08:45:05+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 8
+2021-08-12T08:45:07+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 433
+2021-08-12T08:45:10+00:00 NOTICE member.sync :: Updated Member adam@localhost.com ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Adam
+            [LNAME] => Harris
+        )
+
+)
+
+2021-08-12T08:45:25+00:00 NOTICE debug :: Order ID 433 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => http://127.0.0.1:81/wordpress/wordpress/?wc-ajax=get_refreshed_fragments
+        )
+
+)
+
+2021-08-12T19:28:29+00:00 ERROR order_submit.error :: addStoreOrder :: #433 :: Error Code 400 :: <p>order_url: That is not a valid URL: http://localhost:81/wordpress/my-account/view-order/433/</p> on 1886 in C:\Bitnami\wordpress-5.6-0\apps\wordpress\htdocs\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-08-12T19:29:40+00:00 NOTICE debug :: Order ID 433 was processing and is now completed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2021-08-12T19:29:43+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 433
+2021-08-12T19:32:12+00:00 ERROR order_submit.error :: addStoreOrder :: #433 :: Error Code 400 :: <p>order_url: That is not a valid URL: http://localhost:81/wordpress/my-account/view-order/433/</p> on 1886 in C:\Bitnami\wordpress-5.6-0\apps\wordpress\htdocs\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php

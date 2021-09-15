@@ -1,0 +1,43 @@
+2021-08-11T07:48:04+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 50323ffd21fb274176dacb9a7c20fc63
+2021-08-11T07:48:43+00:00 NOTICE abandoned_cart.success :: email: jim@localhost.com :: checkout_url: http://localhost:81/wordpress/checkout/?mc_cart_id=50323ffd21fb274176dacb9a7c20fc63
+2021-08-11T07:48:45+00:00 NOTICE cart.member.updated :: Updated jim@localhost.com subscriber status to subscribed and language to en
+2021-08-11T07:49:17+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 5
+2021-08-11T07:49:21+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 431
+2021-08-11T07:49:44+00:00 NOTICE debug :: Order ID 431 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => http://localhost:81/wordpress/wordpress/my-account/
+        )
+
+)
+
+2021-08-11T07:49:56+00:00 NOTICE member.sync :: Updated Member jim@localhost.com ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Jim
+            [LNAME] => Carrey
+        )
+
+)
+
+2021-08-11T07:56:47+00:00 ERROR order_submit.error :: addStoreOrder :: #431 :: Error Code 400 :: <p>order_url: That is not a valid URL: http://localhost:81/wordpress/my-account/view-order/431/</p> on 1886 in C:\Bitnami\wordpress-5.6-0\apps\wordpress\htdocs\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-08-11T08:22:00+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 431
+2021-08-11T08:24:30+00:00 ERROR order_submit.error :: addStoreOrder :: #431 :: Error Code 400 :: <p>order_url: That is not a valid URL: http://localhost:81/wordpress/my-account/view-order/431/</p> on 1886 in C:\Bitnami\wordpress-5.6-0\apps\wordpress\htdocs\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-08-11T08:32:56+00:00 NOTICE debug :: Order ID 431 was completed and is now processing :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2021-08-11T08:32:57+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 431
+2021-08-11T08:33:16+00:00 NOTICE debug :: Order ID 431 was processing and is now completed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2021-08-11T08:34:38+00:00 ERROR order_submit.error :: addStoreOrder :: #431 :: Error Code 400 :: <p>order_url: That is not a valid URL: http://localhost:81/wordpress/my-account/view-order/431/</p> on 1886 in C:\Bitnami\wordpress-5.6-0\apps\wordpress\htdocs\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php

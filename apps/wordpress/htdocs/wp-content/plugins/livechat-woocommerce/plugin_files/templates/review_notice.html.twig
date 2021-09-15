@@ -1,0 +1,20 @@
+<div class="lc-design-system-typography lc-notice notice notice-info is-dismissible" id="lc-review-notice">
+    <div class="lc-notice-column">
+        <img class="lc-notice-logo" src="{{ lcNoticeLogo }}" alt="LiveChat logo" />
+    </div>
+    <div class="lc-notice-column">
+        <p>{{ description }}</p>
+        <p>{{ lcTeam }}</p>
+        <div id="lc-review-notice-actions">
+            <a href="https://wordpress.org/support/plugin/livechat-woocommerce/reviews/#new-post" target="_blank" class="lc-review-notice-action lc-btn lc-btn--compact lc-btn--primary" id="lc-review-now">
+                <i class="material-icons">thumb_up</i> <span>{{ answerDeserveIt }}</span>
+            </a>
+            <a href="#" class="lc-review-notice-action lc-btn lc-btn--compact" id="lc-review-postpone">
+                <i class="material-icons">schedule</i> <span>{{ answerMaybeLater }}</span>
+            </a>
+            <a href="#" class="lc-review-notice-action lc-btn lc-btn--compact" id="lc-review-dismiss">
+                <i class="material-icons">not_interested</i> <span>{{ answerNoThanks }}</span>
+            </a>
+        </div>
+    </div>
+</div>

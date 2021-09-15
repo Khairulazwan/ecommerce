@@ -1,0 +1,110 @@
+# Copyright (C) 2020 Moises Heberle
+# This file is distributed under the same license as the WooCommerce Subscriptions Extras plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Subscriptions Extras 1.0.23\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-subscription-extras\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-11-22T20:43:52-03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: woo-subscription-extras\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Subscriptions Extras"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/woo-subscription-extras"
+msgstr ""
+
+#. Description of the plugin
+msgid "Extra features for WooCommerce Subscriptions Extension"
+msgstr ""
+
+#. Author of the plugin
+msgid "Moises Heberle"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://pluggablesoft.com/contact"
+msgstr ""
+
+#: wselite.php:27
+msgid "WooCommerce Subscription Extras"
+msgstr ""
+
+#: wselite.php:51
+msgid "Ask to change subscriptions prices when changed (on product save)"
+msgstr ""
+
+#: wselite.php:52
+#: wselite.php:58
+#: wselite.php:64
+msgid "General"
+msgstr ""
+
+#: wselite.php:57
+msgid "Ask to recalculate subscriptions when change shipping methods (on shipping settings tab)"
+msgstr ""
+
+#: wselite.php:63
+msgid "Ignore customer taxes in subscription prices"
+msgstr ""
+
+#: wselite.php:112
+msgid "A total of %d subscriptions have been updated successfully!"
+msgstr ""
+
+#: wselite.php:144
+msgid "Synchronize subscriptions prices with this product"
+msgstr ""
+
+#: wselite.php:145
+msgid "Synchronize prices"
+msgstr ""
+
+#: wselite.php:167
+msgid "Subscription start date"
+msgstr ""
+
+#: wselite.php:169
+msgid "When filled, this field will change the subscription date to future, instead of the default (current date)"
+msgstr ""
+
+#: wselite.php:178
+msgid "Subscription next payment"
+msgstr ""
+
+#: wselite.php:180
+msgid "When filled, this field will change the subscription Next Payment date"
+msgstr ""
+
+#: wselite.php:515
+msgid "Looks like you have changed the shipping method settings."
+msgstr ""
+
+#: wselite.php:520
+#: wselite.php:570
+msgid "This operation cannot be undone. Proceed anyway?"
+msgstr ""
+
+#: wselite.php:521
+msgid "Click here to recalculate %s subscriptions with this shipping now."
+msgstr ""
+
+#: wselite.php:553
+msgid "Looks like you have updated the price of the variation \"%s\" from %s to %s."
+msgstr ""
+
+#: wselite.php:561
+msgid "Looks like you have updated the price from %s to %s."
+msgstr ""
+
+#: wselite.php:571
+msgid "Click here to update current %s subscriptions prices now."
+msgstr ""

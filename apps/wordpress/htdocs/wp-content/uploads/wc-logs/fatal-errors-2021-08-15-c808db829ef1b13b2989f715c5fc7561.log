@@ -1,0 +1,2 @@
+2021-08-15T17:37:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Bitnami\wordpress-5.6-0\apps\wordpress\htdocs\wp-content\plugins\user-registration\includes\admin\class-ur-admin-form-modal.php on line 13
+

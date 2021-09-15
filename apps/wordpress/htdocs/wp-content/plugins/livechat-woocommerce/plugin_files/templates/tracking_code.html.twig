@@ -1,0 +1,23 @@
+<script type="text/javascript">
+    var LICENSE_NUMBER = '{{ licenseNumber }}';
+    var VISITOR_NAME = '{{ visitorName }}';
+    var VISITOR_EMAIL = '{{ visitorEmail }}';
+
+    window.__lc = window.__lc || {};
+    window.__lc.license = LICENSE_NUMBER;
+
+    window.__lc.visitor = {
+        name: VISITOR_NAME,
+        email: VISITOR_EMAIL
+    };
+
+    (function() {
+        var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+        lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+    })();
+</script>
+
+<noscript><a href="https://www.livechat.com/chat-with/{{ licenseNumber }}/">Chat with us</a>,
+    powered by <a href="https://www.livechat.com/?welcome" rel="noopener" target="_blank">LiveChat</a>
+</noscript>

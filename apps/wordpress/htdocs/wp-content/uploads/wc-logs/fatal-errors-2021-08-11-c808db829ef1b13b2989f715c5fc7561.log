@@ -1,0 +1,9 @@
+2021-08-11T08:20:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Emails::email_header(), 1 passed in C:\Bitnami\wordpress-5.6-0\apps\wordpress\htdocs\wp-includes\class-wp-hook.php on line 303 and exactly 2 expected in C:\Bitnami\wordpress-5.6-0\apps\wordpress\htdocs\wp-content\plugins\woocommerce\includes\class-wc-emails.php:269
+Stack trace:
+#0 C:\Bitnami\wordpress-5.6-0\apps\wordpress\htdocs\wp-includes\class-wp-hook.php(303): WC_Emails->email_header()
+#1 C:\Bitnami\wordpress-5.6-0\apps\wordpress\htdocs\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#2 C:\Bitnami\wordpress-5.6-0\apps\wordpress\htdocs\wp-includes\plugin.php(470): WP_Hook->do_action()
+#3 C:\Bitnami\wordpress-5.6-0\apps\wordpress\htdocs\wp-content\plugins\moowoodle\templates\emails\new-enrollment.php(11): do_action()
+#4 C:\Bitnami\wordpress-5.6-0\apps\wordpress\htdocs\wp-content\plugins\moowoodle\classes\class-moowoodle-template.php(26): include('C:\\Bitnami\\word...')
+#5 C:\Bitnami\wordpress-5.6-0\apps\wordpress\htdocs\wp-content\pl in C:\Bitnami\wordpress-5.6-0\apps\wordpress\htdocs\wp-content\plugins\woocommerce\includes\class-wc-emails.php on line 269
+
